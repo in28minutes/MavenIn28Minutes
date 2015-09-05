@@ -1,0 +1,25 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<div class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <div class="container"><div class="navbar-header"><a class="navbar-brand" href="/">In28Minutes</a></div>
+            <%--logged in mode --%>
+            <c:if test="${sessionScope.user != null}">
+	            <ul class="nav navbar-nav">
+	                <li class="${requestScope.homeTabStyle}"><a href="/todos">Home</a></li>
+	                <li class="${requestScope.aboutTabStyle}"><a href="/learnmore">Learn More</a></li>
+	            </ul>
+	            <div class="btn-group pull-right">
+	                <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#">
+	                    <i class="icon-user"></i> Hello ${sessionScope.user.name}! <span class="caret"></span>
+	                </a>
+	                <ul class="dropdown-menu">
+	                    <li><a href="/user/logout">Sign out</a></li>
+	                </ul>
+	            </div>
+            </c:if>
+        </div>
+    </div>
+</div>
