@@ -1,4 +1,4 @@
-# MavenIn28Minutes
+# Maven Tutorial for Beginners - with Examples In28Minutes
 
 Video for this tutorial : https://www.youtube.com/watch?v=0CFWeVgzsqY
 
