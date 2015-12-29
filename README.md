@@ -78,6 +78,15 @@ mvn install
 
 
 #2. Intermediate Maven Project
+
+- Transtive Dependencies (add Hibernate dependency)
+- Exclusions - Add an exclude
+- Dependency Hierarchy - See how each dependency is coming in
+- Versions [4.1,] [,4.1] [,4.1)
+- Scope - Dependencies are needed only for tests. They are not part of the war or jar. we can use scope for that.
+- Maven Compiler Plugin - Change source from 1.5 to 1.8.
+- Effective Pom - Super Pom (Similar to Java Inheritance) - Check the build part of super pom (Convention over configuration - defaults are defined). We can change it - for example source directory. Recommended not to override defaults. Easy to move from one project to another project. Definitions of various plugins. mvn help:effective-pom
+
 ##	Dependency Management
 		Scope
 		Transitive Dependencies
