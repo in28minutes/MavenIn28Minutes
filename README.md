@@ -104,7 +104,14 @@ mvn install
 		Super POM
 
 #3. Multi Module Maven Project
-	Dependency Management in Parent POM
+- Most projects have multiple layers. Each layer has its own dependencies. Also multiple layers may share same dependency. We will see the best practices in managing dependencies in a multi module maven project.
+- Parent pom has type pom
+- - Defines Modules
+- Dependency Management Section
+- Properties
+- Pre-defined Variables ${project.version}
+- Run from command prompt - mvn clean install
+
 ##Installation Guide
 
 #4. Maven Web Application
