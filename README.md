@@ -28,6 +28,12 @@ Defining what Maven does is very difficult.
 		Create Eclipse Workspace
 
 #1. Beginner Maven Project
+##	First Project : My aim is to create a Spring.jar. Think as if you are developing Spring. Some other developers want to use the framework you are developing. Steps in creating a JAr
+- App.Java -> App.class
+- AppTest.Java -> AppTest.class
+- Run Unit Tests
+- Package in a particular format
+- Earlier this was done using long tedious ant scripts
 ##	What is the power of Maven?
 ##	Project Object Model (POM)
 		Name
