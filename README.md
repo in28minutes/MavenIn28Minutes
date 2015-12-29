@@ -133,4 +133,4 @@ mvn install
 #6. Missing (To Discuss)
 - Plugins : Show in super pom.xml
 - Eclipse Integration
-
+- Profiles
