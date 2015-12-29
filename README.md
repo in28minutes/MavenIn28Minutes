@@ -28,20 +28,32 @@ Defining what Maven does is very difficult.
 		Create Eclipse Workspace
 
 #1. Beginner Maven Project
-##	First Project : My aim is to create a Spring.jar. Think as if you are developing Spring. Some other developers want to use the framework you are developing. Steps in creating a JAr
+##	What is the power of Maven?
+####	First Project : My aim is to create a Spring.jar. Think as if you are developing Spring. Some other developers want to use the framework you are developing. Steps in creating a JAr
 - App.Java -> App.class
 - AppTest.Java -> AppTest.class
 - Run Unit Tests
 - Package in a particular format
 - Earlier this was done using long tedious ant scripts
-##	What is the power of Maven?
-##	Project Object Model (POM)
-		Name
-		Version
-		Packaging
-		Dependencies
-		Plugins
-##	Build LifeCycle
+
+#### Convention over Configuration
+- Pre defined folder structure
+- pom.xml
+- mvn --version
+- mvn compile (compiles source files)
+- mvn test-compile (compiles test files) - one thing to observe is this also compiles source files
+- mvn clean - deletes target directory
+- mvn test - run unit tests
+
+## You are ready for theory on Build Life Cycle
+
+Pre-defined sequence of steps that are done when we run a maven command. Plugins can be attached to lifecycle stages. Default plugins are already defined in the super pom.
+
+mvn install 
+- package - creates the jar
+- install - copies the created jar to local maven repository - a temp folder on my machine where maven stores the files.
+
+###	Build LifeCycle 
 		Validate
 		Compile
 		Test
@@ -50,6 +62,20 @@ Defining what Maven does is very difficult.
 		Verify
 		Install
 		Deploy
+
+## Lets understand pom.xml
+
+###	Project Object Model (POM)
+		Name (if another project want to refer to our project, how do they do it?)
+		Version (Major Version, Minor Version, Incremental Version)
+		Packaging 
+		Dependencies
+		Plugins
+
+
+###  Maven repository stores all the versions of all dependencies. JUnit 4.2,4.3,4.4
+###  Local Repository - all the dependencies that are downloaded for 1st time are stored.
+
 
 #2. Intermediate Maven Project
 ##	Dependency Management
@@ -89,5 +115,6 @@ Defining what Maven does is very difficult.
 		archetype:generate
 
 #6. Missing (To Discuss)
-## Plugins
-		Show in super pom.xml
+- Plugins : Show in super pom.xml
+- Eclipse Integration
+
