@@ -9,13 +9,15 @@ Maven in28Minutes
 In this course, we will use Handson Real World Examples to understand what Maven can do. We will understand how Maven makes the life of an application developer easy. We will learn how Maven helps us to automate things like compilation, running unit tests, creating a war, creating an ear, running a web application in tomcat. We will learn how to use Maven effectively in combination of an IDE like Eclipse. 
 
 Lets now look at the steps in this tutorial. 
-# Step 1 to 4 we will learn about the basics of Maven : Project Object Model and Build LifeCycle
-# Steps 5 and 6 we will learn about dependency management and transitive dependencies
-# Step 7 we will learn about a maven project with multiple layers. Typical projects have a web layer, data layer, external interface layer. We will learn how to create such projects using maven. Multi Module Maven Project.
-# Step 8 : We will learn how to create a war, deploy to tomcat.
+- Step 1 to 4 we will learn about the basics of Maven : Project Object Model and Build LifeCycle
+- Steps 5 and 6 we will learn about dependency management and transitive dependencies
+- Step 7 we will learn about a maven project with multiple layers. Typical projects have a web layer, data layer, external interface layer. We will learn how to create such projects using maven. Multi Module Maven Project.
+- Step 8 : We will learn how to create a war, deploy to tomcat.
 
 #0. What is Maven?
+Defining what Maven does is very difficult. 
 ##	Every Day Developer
+		Manages Dependencies - Web Layer (Spring MVC), Data Layer (JPA - Hibernate) etc..                  
 		Build a jar or a war or an ear
 		Run the application locally - Tomcat or Jetty
 		Deploy to a T environment
