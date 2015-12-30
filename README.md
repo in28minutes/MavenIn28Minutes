@@ -1,18 +1,26 @@
 # Maven Tutorial for Beginners - with Examples In28Minutes
 
-Video for this tutorial : https://www.youtube.com/watch?v=0CFWeVgzsqY
+## Installing Eclipse and Java
+https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
 
-Code for our maven tutorial
+# Course Details
 
-Maven in28Minutes
+In this course, 
+- we will use Handson Real World Examples to understand what Maven can do. 
+- We will understand how Maven makes the life of an application developer easy. 
+- We will learn how Maven helps us to automate things like compilation, running unit tests, creating a war, creating an ear, running a web application in tomcat. 
+- We will learn how to use Maven effectively in combination of an IDE like Eclipse. 
 
-In this course, we will use Handson Real World Examples to understand what Maven can do. We will understand how Maven makes the life of an application developer easy. We will learn how Maven helps us to automate things like compilation, running unit tests, creating a war, creating an ear, running a web application in tomcat. We will learn how to use Maven effectively in combination of an IDE like Eclipse. 
-
+# Course Stpes
 Lets now look at the steps in this tutorial. 
 - Step 1 to 4 we will learn about the basics of Maven : Project Object Model and Build LifeCycle
 - Steps 5 and 6 we will learn about dependency management and transitive dependencies
 - Step 7 we will learn about a maven project with multiple layers. Typical projects have a web layer, data layer, external interface layer. We will learn how to create such projects using maven. Multi Module Maven Project.
 - Step 8 : We will learn how to create a war, deploy to tomcat.
+
+## Video for this tutorial
+https://www.youtube.com/watch?v=0CFWeVgzsqY
+
 
 #0. What is Maven?
 Defining what Maven does is very difficult. 
