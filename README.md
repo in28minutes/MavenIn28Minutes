@@ -1,26 +1,43 @@
 # Maven Tutorial for Beginners - with Examples In28Minutes
+## Caption for the course.
 
-## Installing Eclipse and Java
+* [Course Overview](#course-overview)
+  - [Course Steps](#step-list)
+  - [Expectations](#expectations)
+  - [Running examples](#running-examples)
+* [About in28Minutes](#about-in28minutes)
+  - [Our Beliefs](#our-beliefs)
+  - [Our Approach](#our-approach)
+  - [Find Us](#useful-links)
+  - [Other Courses](#other-courses)
+
+##Installing Eclipse and Java
 https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
 
-# Course Details
-
-In this course, 
+##Course Overview
 - we will use Handson Real World Examples to understand what Maven can do. 
 - We will understand how Maven makes the life of an application developer easy. 
 - We will learn how Maven helps us to automate things like compilation, running unit tests, creating a war, creating an ear, running a web application in tomcat. 
 - We will learn how to use Maven effectively in combination of an IDE like Eclipse. 
+- We will use 
+  - Maven for dependency management, building and running the application in tomcat.
+  - Eclipse IDE.
 
-# Course Stpes
+###Step List
 Lets now look at the steps in this tutorial. 
 - Step 1 to 4 we will learn about the basics of Maven : Project Object Model and Build LifeCycle
 - Steps 5 and 6 we will learn about dependency management and transitive dependencies
 - Step 7 we will learn about a maven project with multiple layers. Typical projects have a web layer, data layer, external interface layer. We will learn how to create such projects using maven. Multi Module Maven Project.
 - Step 8 : We will learn how to create a war, deploy to tomcat.
 
-## Video for this tutorial
-https://www.youtube.com/watch?v=0CFWeVgzsqY
+###Running Examples
+- If you are downloading the zip file, unzip the file
+- Open Command Prompt and Change directory to folder containing pom.xml
+- Run command "mvn tomcat7:run"
+- For help : user our installation guide - https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
 
+###Youtube Video
+https://www.youtube.com/watch?v=0CFWeVgzsqY
 
 #0. What is Maven?
 Defining what Maven does is very difficult. 
@@ -120,8 +137,6 @@ mvn install
 - Pre-defined Variables ${project.version}
 - Run from command prompt - mvn clean install
 
-##Installation Guide
-
 #4. Maven Web Application
 ##	Packaging
 		War
@@ -142,3 +157,58 @@ mvn install
 - Plugins : Show in super pom.xml
 - Eclipse Integration
 - Profiles
+
+
+###Expectations
+- You should know Java. 
+
+##Conclusion
+- Thats a lot of ground we covered over the last so and so..
+- To find out more about *** use these References  
+- We had fun creating this course and we are sure you had some fun too.
+- Good Luck and Bye from the team here at in28Minutes
+- Do not forget to leave us a review.
+
+##About in28Minutes
+- At in28Minutes, we ask ourselves one question everyday. How do we create more effective trainings?
+- We use Problem-Solution based Step-By-Step Hands-on Approach With Practical, Real World Application Examples. 
+- Our success on Udemy and Youtube (2 Million Views & 12K Subscribers) speaks volumes about the success of our approach.
+- While our primary expertise is on Development, Design & Architecture Java & Related Frameworks (Spring, Struts, Hibernate) we are expanding into the front-end world (Bootstrap, JQuery, Angular JS). 
+
+###Our Beliefs
+- Best Course are interactive and fun.
+- Foundations for building high quality applications are best laid down while learning.
+
+###Our Approach
+- Problem Solution based Step by Step Hands-on Learning
+- Practical, Real World Application Examples.
+- We use 80-20 Rule. We discuss 20% things used 80% of time in depth. We touch upon other things briefly equipping you with enough knowledge to find out more on your own. 
+- We will be developing a demo application in the course, which could be reused in your projects, saving hours of your effort.
+- All the code is available on Github, for most steps.
+
+###Useful Links
+- [Our Website](http://www.in28minutes.com)
+- [Youtube Courses](https://www.youtube.com/user/rithustutorials/playlists)
+- [Udemy Courses](https://www.udemy.com/user/in28minutes/)
+- [Facebook](http://facebook.com/in28minutes)
+- [Twitter](http://twitter.com/in28minutes)
+- [Google Plus](https://plus.google.com/u/3/110861829188024231119)
+
+###Other Courses
+- [Spring Framework](https://www.udemy.com/spring-tutorial-for-beginners/)
+- [Maven](http://www.in28minutes.com/p/maven-tutorial-for-beginners.html)
+- [Eclipse](http://www.in28minutes.com/p/eclipse-java-video-tutorial.html)
+- Java
+  * [Java](https://www.youtube.com/watch?v=Y4ftqcYVh5I&list=PLE0D4634AE2DFA591&index=1)
+  * [Java Collections](http://www.in28minutes.com/p/java-collections-framework-video.html)
+  * [Java OOPS Concepts](https://www.udemy.com/learn-object-oriented-programming-in-java/) 
+- [Design Patterns](http://www.in28minutes.com/p/design-patterns-tutorial.html)
+- [JUnit](https://www.udemy.com/junit-tutorial-for-beginners-with-java-examples/)
+- [C](https://www.udemy.com/c-tutorial-for-beginners-with-puzzles/)
+- [C Puzzles](https://www.udemy.com/c-puzzles-for-beginners/)
+- [Javascript](https://www.youtube.com/watch?v=6TZdD-FR6CY)
+- [More Courses on Udemy](https://www.udemy.com/user/in28minutes/)
+  * Java Servlets and JSP : Your first web application in 25 Steps
+  * Learn Spring MVC in 25 Steps 
+  * Learn Struts in 25 Steps 
+  * Learn Struts in 25 Steps   
