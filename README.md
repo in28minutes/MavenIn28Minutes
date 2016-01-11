@@ -14,6 +14,11 @@
 ##Installing Eclipse and Java
 https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
 
+##Todo
+- Profiles
+- Surefire Plugin Reports 
+- Automation Testing (Selenium) Reports
+
 ##Course Overview
 - we will use Handson Real World Examples to understand what Maven can do. 
 - We will understand how Maven makes the life of an application developer easy. 
