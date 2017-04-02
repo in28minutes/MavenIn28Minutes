@@ -11,16 +11,16 @@
   - [Find Us](#useful-links)
   - [Other Courses](#other-courses)
 
-##Installing Eclipse and Java
+## Installing Eclipse and Java
 https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
 
-##Todo
+## Todo
 - Profiles
 - Surefire Plugin Reports 
 - Automation Testing (Selenium) Reports
 
-##Course Overview
-- we will use Handson Real World Examples to understand what Maven can do. 
+## Course Overview
+- We will use Handson Real World Examples to understand what Maven can do. 
 - We will understand how Maven makes the life of an application developer easy. 
 - We will learn how Maven helps us to automate things like compilation, running unit tests, creating a war, creating an ear, running a web application in tomcat. 
 - We will learn how to use Maven effectively in combination of an IDE like Eclipse. 
@@ -28,23 +28,23 @@ https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-J
   - Maven for dependency management, building and running the application in tomcat.
   - Eclipse IDE.
 
-###Step List
+### Step List
 Lets now look at the steps in this tutorial. 
 - Step 1 to 4 we will learn about the basics of Maven : Project Object Model and Build LifeCycle
 - Steps 5 and 6 we will learn about dependency management and transitive dependencies
 - Step 7 we will learn about a maven project with multiple layers. Typical projects have a web layer, data layer, external interface layer. We will learn how to create such projects using maven. Multi Module Maven Project.
 - Step 8 : We will learn how to create a war, deploy to tomcat.
 
-###Running Examples
+### Running Examples
 - If you are downloading the zip file, unzip the file
 - Open Command Prompt and Change directory to folder containing pom.xml
 - Run command "mvn tomcat7:run"
 - For help : user our installation guide - https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
 
-###Youtube Video
+### Youtube Video
 https://www.youtube.com/watch?v=0CFWeVgzsqY
 
-#0. What is Maven?
+# 0. What is Maven?
 Defining what Maven does is very difficult. 
 ##	Every Day Developer
 		Manages Dependencies - Web Layer (Spring MVC), Data Layer (JPA - Hibernate) etc..                  
@@ -57,7 +57,7 @@ Defining what Maven does is very difficult.
 		Generate Projects
 		Create Eclipse Workspace
 
-#1. Beginner Maven Project
+# 1. Beginner Maven Project
 ##	What is the power of Maven?
 ####	First Project : My aim is to create a Spring.jar. Think as if you are developing Spring. Some other developers want to use the framework you are developing. Steps in creating a JAr
 - App.Java -> App.class
@@ -107,7 +107,7 @@ mvn install
 ###  Local Repository - all the dependencies that are downloaded for 1st time are stored.
 
 
-#2. Intermediate Maven Project
+# 2. Intermediate Maven Project
 
 - Transtive Dependencies (add Hibernate dependency)
 - Exclusions - Add an exclude
@@ -133,7 +133,7 @@ mvn install
 ##	Hierarchy of POMS
 		Super POM
 
-#3. Multi Module Maven Project
+# 3. Multi Module Maven Project
 - Most projects have multiple layers. Each layer has its own dependencies. Also multiple layers may share same dependency. We will see the best practices in managing dependencies in a multi module maven project.
 - Parent pom has type pom
 - - Defines Modules
@@ -142,13 +142,13 @@ mvn install
 - Pre-defined Variables ${project.version}
 - Run from command prompt - mvn clean install
 
-#4. Maven Web Application
+# 4. Maven Web Application
 ##	Packaging
 		War
 		Ear
 ##	Running application in Tomcat	
 
-#5. Tip and Tricks
+# 5. Tip and Tricks
 ##	Important Commands
 		help:effective-settings
 		help:effective-pom
@@ -158,62 +158,57 @@ mvn install
 ##	Maven Archetypes
 		archetype:generate
 
-#6. Missing (To Discuss)
+# 6. Missing (To Discuss)
 - Plugins : Show in super pom.xml
 - Eclipse Integration
 - Profiles
 
 
-###Expectations
+### Expectations
 - You should know Java. 
 
-##Conclusion
+## Conclusion
 - Thats a lot of ground we covered over the last so and so..
 - To find out more about *** use these References  
 - We had fun creating this course and we are sure you had some fun too.
 - Good Luck and Bye from the team here at in28Minutes
 - Do not forget to leave us a review.
 
-##About in28Minutes
+## About in28Minutes
 - At in28Minutes, we ask ourselves one question everyday. How do we create more effective trainings?
 - We use Problem-Solution based Step-By-Step Hands-on Approach With Practical, Real World Application Examples. 
 - Our success on Udemy and Youtube (2 Million Views & 12K Subscribers) speaks volumes about the success of our approach.
 - While our primary expertise is on Development, Design & Architecture Java & Related Frameworks (Spring, Struts, Hibernate) we are expanding into the front-end world (Bootstrap, JQuery, Angular JS). 
 
-###Our Beliefs
+### Our Beliefs
 - Best Course are interactive and fun.
 - Foundations for building high quality applications are best laid down while learning.
 
-###Our Approach
+### Our Approach
 - Problem Solution based Step by Step Hands-on Learning
 - Practical, Real World Application Examples.
 - We use 80-20 Rule. We discuss 20% things used 80% of time in depth. We touch upon other things briefly equipping you with enough knowledge to find out more on your own. 
 - We will be developing a demo application in the course, which could be reused in your projects, saving hours of your effort.
 - All the code is available on Github, for most steps.
 
-###Useful Links
+### Other Courses
+
+- [Most Watched Courses on YouTube - 30,000 Subscribers](https://www.youtube.com/watch?v=bNFoN956P2A&list=PLBBog2r6uMCQhZaQ9vUT5zJWXzz-f49k1)
+- [25 Videos and Articles for Beginners on Spring Boot](http://www.springboottutorial.com/spring-boot-tutorials-for-beginners)
+- Our Best Courses with 66,000 Students and 4,000 5-Star Ratings
+  * [Java Interview Guide : 200+ Interview Questions and Answers](https://www.udemy.com/java-interview-questions-and-answers/?couponCode=JAVA_INTER_GIT)
+  * [First Web Application with Spring Boot](https://www.udemy.com/spring-boot-first-web-application/?couponCode=SPRING-BOOT-1-GIT)
+  * [Spring Boot Tutorial For Beginners](https://www.udemy.com/spring-boot-tutorial-for-beginners/?couponCode=SPRING-BOOT-GIT)
+  * [Mockito Tutorial : Learn mocking with 25 Junit Examples](https://www.udemy.com/mockito-tutorial-with-junit-examples/?couponCode=MOCKITO_GIT)
+  * [Java EE Made Easy - Patterns, Architecture and Frameworks](https://www.udemy.com/java-ee-design-patterns-architecture-and-frameworks/?couponCode=EEPATTERNS-GIT)
+  * [Spring MVC For Beginners : Build Java Web App in 25 Steps](https://www.udemy.com/spring-mvc-tutorial-for-beginners-step-by-step/?couponCode=SPRINGMVC-GIT)
+  * [JSP Servlets For Beginners : Build Java Web App in 25 Steps](https://www.udemy.com/learn-java-servlets-and-jsp-web-application-in-25-steps/?couponCode=JSPSRVLT-GIT)
+  * [Maven Tutorial - Manage Java Dependencies in 25 Steps](https://www.udemy.com/learn-maven-java-dependency-management-in-20-steps/?couponCode=MAVEN_GIT)
+  * [Java OOPS in 1 Hours](https://www.udemy.com/learn-object-oriented-programming-in-java/?couponCode=OOPS-GIT)
+  * [C Puzzle for Interview](https://www.udemy.com/c-puzzles-for-beginners/?couponCode=CPUZZLES-GIT)
+  
+### Useful Links
 - [Our Website](http://www.in28minutes.com)
-- [Youtube Courses](https://www.youtube.com/user/rithustutorials/playlists)
-- [Udemy Courses](https://www.udemy.com/user/in28minutes/)
 - [Facebook](http://facebook.com/in28minutes)
 - [Twitter](http://twitter.com/in28minutes)
 - [Google Plus](https://plus.google.com/u/3/110861829188024231119)
-
-###Other Courses
-- [Spring Framework](https://www.udemy.com/spring-tutorial-for-beginners/)
-- [Maven](http://www.in28minutes.com/p/maven-tutorial-for-beginners.html)
-- [Eclipse](http://www.in28minutes.com/p/eclipse-java-video-tutorial.html)
-- Java
-  * [Java](https://www.youtube.com/watch?v=Y4ftqcYVh5I&list=PLE0D4634AE2DFA591&index=1)
-  * [Java Collections](http://www.in28minutes.com/p/java-collections-framework-video.html)
-  * [Java OOPS Concepts](https://www.udemy.com/learn-object-oriented-programming-in-java/) 
-- [Design Patterns](http://www.in28minutes.com/p/design-patterns-tutorial.html)
-- [JUnit](https://www.udemy.com/junit-tutorial-for-beginners-with-java-examples/)
-- [C](https://www.udemy.com/c-tutorial-for-beginners-with-puzzles/)
-- [C Puzzles](https://www.udemy.com/c-puzzles-for-beginners/)
-- [Javascript](https://www.youtube.com/watch?v=6TZdD-FR6CY)
-- [More Courses on Udemy](https://www.udemy.com/user/in28minutes/)
-  * Java Servlets and JSP : Your first web application in 25 Steps
-  * Learn Spring MVC in 25 Steps 
-  * Learn Struts in 25 Steps 
-  * Learn Struts in 25 Steps   
