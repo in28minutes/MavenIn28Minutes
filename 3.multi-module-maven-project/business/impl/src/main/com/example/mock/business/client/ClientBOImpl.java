@@ -51,7 +51,8 @@ public class ClientBOImpl implements ClientBO {
     public void saveChangedProducts(long clientId,
             List<Product> userEnteredProducts) {
 
-        List<Product> databaseProducts = productDO.getAllProducts(clientId);
+        List<Product> databaseProducts = 
+        			productDO.getAllProducts(clientId);
 
         updateExistingProductsWhichAreModified(clientId, userEnteredProducts,
                 databaseProducts);
