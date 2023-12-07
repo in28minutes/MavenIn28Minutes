@@ -1,4 +1,4 @@
-# Maven Tutorial for Beginners - with Examples In28Minutes
+som# Maven Tutorial for Beginners - with Examples In28Minutes
 
 [![Image](https://www.springboottutorial.com/images/Course-Maven-Tutorial-Manage-Java-Dependencies-in-20-Steps.png "Maven Tutorial - Manage Java Dependencies in 20 Steps")](https://www.udemy.com/course/learn-maven-java-dependency-management-in-20-steps/)
 
@@ -173,4 +173,4 @@ mvn install
 
 ## Keep Learning in28Minutes
 
-in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
+why is this so hard to remember that in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
